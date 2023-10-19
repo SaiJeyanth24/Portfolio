@@ -27,4 +27,25 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main > h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main > p{
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+}
+
+.main >img{
+    margin-top: 40px;
+}
+
 /* background theme - #FFB000 */
