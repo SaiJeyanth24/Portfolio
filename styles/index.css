@@ -1,3 +1,8 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -5,8 +10,10 @@
     padding-left: 20px;
 }
 
-.icon > img{
-    width: 0.5rem;
+.icon img{
+    position: relative;
+    top: 5px;
+    left: 10px;
 }
 
 .items >button{
@@ -48,4 +55,56 @@
     margin-top: 40px;
 }
 
+.intro{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 128px;
+    background-color: #FFB000;
+    color: white;
+    text-align: center;
+}
+
+.profile-image{
+    padding: 50px;
+    width: 38%;
+}
+
+.profile-image > img{
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.profile-image > .role{
+    font-size: large;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.profile-image > .company{
+    margin-top: 5px;
+    font-size: large;
+    font-weight: bold;
+    font-family: "eurostile", sans-serif;
+}
+
+.profile-intro{
+    width:58%;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.profile-intro > h1{
+    font-family: "eurostile", sans-serif;
+}
+
+.profile-intro >p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
 /* background theme - #FFB000 */
