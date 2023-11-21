@@ -3,6 +3,17 @@ body{
     margin: 0;
 }
 
+footer{
+    background-color: ;
+}
+
+footer>p{
+    text-align: center;
+    height: 60px;
+    position: relative;
+    top: 12px;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -16,7 +27,7 @@ body{
     left: 10px;
 }
 
-.items >button{
+.items button{
     position: relative;
     top: 10px;
     right: 40px;
@@ -28,10 +39,17 @@ body{
     font-weight: medium;
 }
 
-.items >button:hover{
+.items button:active{
+    width: 107px;
+    height: 44px;
+    font-size: 17px;
+}
+
+.items button:hover{
     background-color: #FFB000;
     color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
 }
 
 .main{
@@ -107,4 +125,11 @@ body{
     font-weight: 500;
     font-size: 20px;
 }
-/* background theme - #FFB000 */
+
+.portfolio{
+    width: 100%;
+    height: 600px;
+}
+
+
+/* background theme -#FFB000  */
