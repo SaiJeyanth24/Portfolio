@@ -16,5 +16,3 @@ button.addEventListener('click', Response);
 const cancel=document.querySelector('.cancel');
 
 cancel.addEventListener('click',cancelListener);
-
-
