@@ -16,7 +16,32 @@ body{
     left: 10px;
 }
 
-button{
+.items button{
+    position: relative;
+    top: 10px;
+    right: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border: 3px solid #FFB000;
+    border-radius: 15px;
+    background-color: white;
+    font-weight: medium;
+}
+
+.items button:active{
+    width: 107px;
+    height: 44px;
+    font-size: 17px;
+}
+
+.items button:hover{
+    background-color: #FFB000;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+/*button{
     position: relative;
     top: 10px;
     right: 40px;
@@ -35,7 +60,7 @@ button:hover{
     background-color: #FFB000;
     color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+}*/
 
 .main{
     display: flex;
