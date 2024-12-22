@@ -149,4 +149,20 @@ button:hover{
     color: #FFB000;
 }
 
+.experience{
+    margin-top: 500px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#email{
+    color: #FFB000;
+    text-decoration: none;
+}
+
+#email:hover{
+    color: #dd9805;
+    cursor: pointer;
+}
+
 /* background theme - #FFB000 */
